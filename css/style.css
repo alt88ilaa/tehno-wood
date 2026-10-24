@@ -512,33 +512,3 @@ ul {
   font-size: 0.85rem;
 }
 
-/* Media queries */
-@media (max-width: 900px) {
-  .hero__title {
-    font-size: 2.2rem;
-  }
-  .lead-section__container {
-    flex-direction: column;
-  }
-  .stats__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .footer__container {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 600px) {
-  .nav {
-    display: none; /* Упрощенно для мобильных */
-  }
-  .hero__title {
-    font-size: 1.8rem;
-  }
-  .stats__grid {
-    grid-template-columns: 1fr;
-  }
-  .card__img {
-    height: 260px;
-  }
-}
